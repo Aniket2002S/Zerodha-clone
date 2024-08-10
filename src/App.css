@@ -1,0 +1,36 @@
+/* src/App.css */
+.body{
+  font-family: inter, serif;
+}
+.navbar-custom {
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+  }
+  
+  .navbar-logo {
+    width: 129px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    padding-left: 10px; /* Add padding to the left */
+    padding-right: 10px; /* Add padding to the right */
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  
+  .nav-link-custom {
+    color: #666;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+    display: inline-block;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .nav-link-custom:hover {
+    color: #387ed1;
+  }
+  
+  .footer-container{
+    padding-bottom: 60px;
+    padding-top: 20px;
+    box-shadow: 0 0 0 4px  rgba(0, 0, 0, 0.1); /* Add shadow effect */
+  }
